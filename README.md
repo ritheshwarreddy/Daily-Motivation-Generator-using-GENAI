@@ -41,7 +41,7 @@ This project is a simple Streamlit app that uses Google's Gemini 1.5 Flash API t
 ![Output Screenshot](output.png)
 
 ## 🔗 Demo
- [Live Demo](https://dailymotivation.streamlit.app)
+https://dailymotivationappapp-d89jdximvqgh9xejf6duvq.streamlit.app/
 
 ---
 
