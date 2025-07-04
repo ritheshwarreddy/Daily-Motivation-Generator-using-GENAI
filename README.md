@@ -34,7 +34,8 @@ This project is a simple Streamlit app that uses Google's Gemini 1.5 Flash API t
 ## 📷 Screenshots
 
 ### 🎯 Input Page
-![Input Example](screenshots/input.png)
+![Input Screenshot](input.png)
+
 
 ### 🌟 Output Quote
 ![Output Screenshot](screenshots/output.png)
