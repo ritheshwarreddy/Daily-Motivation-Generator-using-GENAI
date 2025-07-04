@@ -34,11 +34,11 @@ This project is a simple Streamlit app that uses Google's Gemini 1.5 Flash API t
 ## 📷 Screenshots
 
 ### 🎯 Input Page
-![Input Screenshot](input.png)
+![Input Screenshot](input.jpg)
 
 
 ### 🌟 Output Quote
-![Output Screenshot](output.png)
+![Output Screenshot](output.jpg)
 
 ## 🔗 Demo
 https://dailymotivationappapp-d89jdximvqgh9xejf6duvq.streamlit.app/
