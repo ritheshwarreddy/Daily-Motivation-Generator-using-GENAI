@@ -5,10 +5,10 @@ import os
 
 # Load API Key from .env
 load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY=AIzaSyCkG3_49csuJaytgd727K1psYUPizK9hhU")
+api_key = os.getenv("GEMINI_API_KEY")
 
 # Configure Gemini
-genai.configure(api_key=os.getenv("GEMINI_API_KEY=AIzaSyCkG3_49csuJaytgd727K1psYUPizK9hhU"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash", generation_config={"temperature": 0.8})
 
 # Streamlit Page Setup
