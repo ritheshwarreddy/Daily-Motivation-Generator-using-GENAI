@@ -5,13 +5,11 @@ import os
 
 # Load API Key from .env
 load_dotenv()
-
-
-api_key = st.secrets["GEMINI_API_KEY"] 
+api_key = os.getenv("GEMINI_API_KEY")
 
 # Configure Gemini
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash", generation_config={"temperature": 0.8})
+model = genai.GenerativeModel("gemini-1.5-flash")  # Use 'gemini-1.5-pro' if Flash feels slow
 
 # Streamlit Page Setup
 st.set_page_config(page_title="Daily Motivation Generator", page_icon="💡")
